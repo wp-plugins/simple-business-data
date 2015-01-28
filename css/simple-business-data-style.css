@@ -1,0 +1,123 @@
+/**
+  This style sheet is for the Simple Business Data plugin to add styles to user
+  elements inserted by the plugin and works in conjunction with the Font Awesome
+  stylesheet loaded by the CDN.
+  Created on : Dec 19, 2014, 5:03:23 PM
+  Author     : Dennis M. Barber
+  Version    : 1.0.0
+*/
+.simple-business-data-block {
+  padding: .25em 0;
+  font-size: 110%;
+}
+.simple-business-data-block span {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+.simple-business-data-address:before,
+.simple-business-data-telephone:before,
+.simple-business-data-fax:before,
+.simple-business-data-email:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  width: 1.5em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.2;
+}
+.simple-business-data-address:before {
+  content: "\f041"; /* map icon */
+  vertical-align: top;
+}
+.simple-business-data-telephone:before {
+  content: "\f095"; /* telephone icon */
+}
+.simple-business-data-fax:before {
+  content: "\f1ac"; /* fax icon */
+}
+.simple-business-data-email:before {
+  content: "\f003"; /* envelope icon */
+}
+.simple-business-data-address.no-icon,
+.simple-business-data-telephone.no-icon,
+.simple-business-data-fax.no-icon,
+.simple-business-data-email.no-icon {
+
+}
+
+/* Social Media */
+.simple-business-data-social-media-bar {
+  width: 100%;
+  height: auto;
+  margin: 1% 0;
+  padding: 0 1%;
+}
+ul.simple-business-data-social-media-links {
+  list-style-type: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0 !important;
+}
+ul.simple-business-data-social-media-links li {
+  display: inline-block;
+  margin: 0 1px 0 0;
+}
+a.simple-business-data-social-tooltip {
+  text-decoration: none;
+  outline: 0;
+  display: block !important;
+  text-align: center;
+  line-height: 24px;
+  font-size: 24px;
+  position: relative;
+}
+a.simple-business-data-social-tooltip span {
+  
+}
+a.simple-business-data-social-tooltip {
+  color: #A1A1A1;
+}
+a.simple-business-data-social-tooltip:hover {
+  color: #0066cc;
+  /*color: #3b8dbd;*/
+}
+a.simple-business-data-social-tooltip:after {
+  position: relative;
+  display: none;
+}
+a.simple-business-data-social-tooltip[data-title]:hover:after {
+  content: attr(data-title);
+  display: block;
+  padding: 0 8px;
+  background: #000;
+  color: #E6E6E6;
+  border: 1px solid #000;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -moz-box-shadow: 0px 0px 4px #222;
+  -webkit-box-shadow: 0px 0px 4px #222;
+  box-shadow: 0px 0px 4px #222;
+  white-space: nowrap;
+  font-size: 60%;
+  position: absolute;
+  top: 110%;
+  left: -250%;
+  z-index: 999999;
+}
+@media only screen and (max-width : 1040px) {
+  a.simple-business-data-social-tooltip[data-title]:hover:after {
+    left: -500%;
+  }
+}
+@media only screen and (max-width : 480px) {
+  .simple-business-data-social-media-bar {
+    margin-bottom: 500px;
+  }
+}
+@media only screen and (max-width : 328px) {
+  a.simple-business-data-social-tooltip[data-title]:hover:after {
+    left: -375%;
+  }
+}

@@ -1,0 +1,53 @@
+/*
+    Created on : Dec 20, 2014, 11:39:17 AM
+    Author     : Dennis M. Barber
+    Version    : 1.0.0
+*/
+
+h2.simple-business-data-title:before {
+	content: "\f119";
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	font: normal 28px/1 'dashicons';
+	vertical-align: top;
+  padding-right: 4px;
+  color: #6D6968;
+}
+.simple-business-data-text-container {
+  width: 80%;
+  margin-bottom: 1%;
+  padding: 1%;
+}
+.simple-business-data-form-admin {
+  width: 80%;
+  margin: 0;
+  padding: 1%;
+  border: 1px solid #98AFC7;
+  background-color: #FEFCFF;
+  color:  #0C090A;
+}
+.simple-business-data-table-admin {
+  width: 100%;
+}
+.simple-business-data-table-admin.social {
+  margin-top: 2%;
+}
+.simple-business-data-table-admin tr,
+.simple-business-data-table-admin th,
+.simple-business-data-table-admin td {
+  padding: 3px;
+  margin: 0;
+}
+.simple-business-data-table-admin tbody tr td:first-child {
+  width: 25%;
+  text-align: right;
+}
+.simple-business-data-table-admin textarea {
+  min-height: 5em;
+}
+.sbd_debug_bar {
+  width: 80%;
+  margin-bottom: 1%;
+  padding: 1%;
+}
+
