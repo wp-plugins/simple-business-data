@@ -1,6 +1,6 @@
 === Simple Business Data ===
 Contributors: DMBarber
-Tags: business, information, display, telephone, fax, email, social-media, data, insert, icon, FontAwesome, shortcode
+Tags: business, information, address, telephone, fax, email, display, social-media, data, insert, icon, FontAwesome, shortcode, Facebook, Twitter, LinkedIn, Google+, Yelp!, YouTube, Codepen, Flickr, Foursquare, Github, JsFiddle, Instagram, Pinterest, RSS Feed, Stack Exchange, Stack Overflow, StumbleUpon, Tumblr, Vimeo
 Requires at least: 2.8
 Tested up to: 4.1
 Stable tag: 1.0.1
@@ -11,13 +11,13 @@ Insert your Font Awesome, easily styled, customizable, business data (address, t
 
 == Description ==
 
-With this plugin you can add your business data information and social media links to a form in the admin panel, place the shortcode into any page, post, and/or text widget, and have it displayed in your theme. You will not need to keep track of every place you have your business information or social media links are displayed on your website. Just change it in the form and it is changed in your theme. You may also turn off the icon that is displayed with the text for your business information. You may also update the stylesheet to alter the display of text and color of the icons.
+Add your business data information and social media links to a form in the admin panel, place the shortcode into any page, post, and/or text widget, and have it displayed in your theme. You will not need to keep track of every place you have your business information or social media links are displayed on your website. Just change it in the form and it is changed in your theme. Easily add your new social media link to the form and the icon will be added automatically in your front-end. You may also turn off the icon that is displayed with the text for your business information. You may also update the stylesheet to alter the display of text and color of the icons.
 
 The telephone number is coded for mobile-html touch dialing so users viewing your website from their mobile device may "touch" your telephone number to dial.
 
 The icon for the item is displayed in the settings form and the Shortcode is displayed so that you may easily copy and paste it into the location where you want it displayed.
 
-This plugin uses the Font Awesome icons so they will scale with your text and are the colors are easily changed via your stylesheet.
+This plugin uses Font Awesome icons that will scale and color of your text.
 
 Shortcode Usage:
 
@@ -55,6 +55,9 @@ social media icons, as they are the only thing that currently displays.
 
 = 1.0.0 =
  * Initial release.
+
+= 1.0.1 =
+ * Updated Tags in readme file.
 
 == Upgrade Notice ==
 

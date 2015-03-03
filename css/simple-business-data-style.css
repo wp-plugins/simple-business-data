@@ -4,7 +4,7 @@
   stylesheet loaded by the CDN.
   Created on : Dec 19, 2014, 5:03:23 PM
   Author     : Dennis M. Barber
-  Version    : 1.0.0
+  Version    : 1.0.1
 */
 .simple-business-data-block {
   padding: .25em 0;
@@ -73,7 +73,7 @@ a.simple-business-data-social-tooltip {
   position: relative;
 }
 a.simple-business-data-social-tooltip span {
-  
+
 }
 a.simple-business-data-social-tooltip {
   color: #A1A1A1;
